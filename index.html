@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question juste comme ça</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Handlee&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="question-screen">
+            <h1>Mon petit Tominou que j'aime tant</h1>
+            Est-ce que tu m'aimes fort fort fort ???
+            <form id="love-form">
+                <div class="radio-group">
+                    <input type="radio" id="answer1" name="love_answer" value="opt1" required>
+                    <label for="answer1">Plus que les étoiles dans le ciel!</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="answer2" name="love_answer" value="opt2">
+                    <label for="answer2">Évidemment, mon petit chat à la crème!</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="answer3" name="love_answer" value="opt3">
+                    <label for="answer3">À la folie, passionnément, pour toujours!</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="answer4" name="love_answer" value="opt4">
+                    <label for="answer4">Oui mais moins fort qu'Azur quand-même...</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="answer5" name="love_answer" value="opt5">
+                    <label for="answer5">C'est trop tard pour annuler le mariage ...?</label>
+                </div>
+                <button type="submit">Valider</button>
+            </form>
+        </div>
+        <div id="message-screen-happy" class="hidden">
+            <h2>Ouiiiiii j'ai hâte de t'épouser hihi</h2><br>
+            Je t'aime plus que tout au monde, et pour AU MOINS 2 révolutions galactiques!! 💖
+        </div>
+        <div id="message-screen-sad" class="hidden">
+            <h2>Ho je comprends... Azur est vraiment trop cool :/</h2><br>
+            Fair enough mais je t'aime quand même hihi 💖
+        </div>
+        <div id="message-screen-angry" class="hidden">
+            <h2>Alors c'est comme ça.</h2><br>
+            T'inquiète pas pour moi, j'ai déjà adapté ton testament.
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
